@@ -1,0 +1,148 @@
+body {
+    background-color: white;
+    font-family: arial;
+}
+p {
+    text-align: center;
+    font-size: 15px;
+}
+
+#form {
+    width: 300px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+}
+td label {
+    font-size: 12px;
+    
+}
+.birthdate {
+    width: 300px;
+    border-radius: 4px;
+    font-size: 12px;
+
+}
+
+#form h1 {
+    color: #0f2027;
+    text-align: center;
+}
+
+#form button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    
+    background-color: #1ebe67;
+    border: none;
+    border-radius: 20px;
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-control input {
+    border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-size: 12px;
+	padding: 10px;
+	width: 100%;
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+}
+.birthdate .error {
+    color: #ff3860;
+    font-size: 9px;
+    
+}
+.day {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    height: 13px;
+}
+.month {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    height: 13px;
+}
+.year {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    height: 13px;
+}
+ .top {
+  
+   text-decoration: none;
+   
+ }
+ .facebook {
+   margin: auto;
+   text-align: center;
+   width: 70%;
+   background-color: #00578c;
+   border-radius: 30px;
+   padding: 10px;
+    border: 2px solid black;
+  
+ }
+ .google {
+   margin: auto;
+   text-align: center;
+   width: 70%;
+   background-color: white;
+   border-radius: 30px;
+   padding: 10px;
+   border: 2px solid black;
+
+  
+ }
+ .facebook a {
+   text-decoration: none;
+   color: white;
+   
+ 
+ }
+ .google a {
+   text-decoration: none;
+   color: black;
+
+ }
+ .google img {
+   border-radius: 50%;
+   
+ 
+ }
+ .facebook img {
+   border-radius: 50%;
+   }
+   #error {
+    color: #ff3860;
+    font-size: 9px;
+    
+   }

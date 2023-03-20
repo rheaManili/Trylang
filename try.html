@@ -1,0 +1,113 @@
+<html lang="en">
+<head>
+    
+    <title>Sign Up Validation</title>
+     
+    <link rel="stylesheet" href="try.css">
+    <script defer src="try.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form id="form" action="/">
+                 <h1>
+	  <img src="logo.png" width="150px" height="40px" /> <br /> </h1>
+    <p><b>Sign up for free to start listening.</b></p>
+       <div class="top">
+     <div class="facebook">
+     <a href=""><img src="facebook.png" width="20px" height="10px" /> Sign up with Facebook</a>
+      </div> <br>
+     <div class="google">
+      <a href=""><img src="google.png" height="10px" height="10px"  /> Sign up with Google</a>
+      </div>
+       </div>
+    <hr>
+    <p class="signup"><b>Sign up with your email address.</b></p>
+  
+	  
+            <div class="input-control">
+                <label for="Email">What's your Email?</label>
+                <input id="email" name="email" type="text" placeholder="Enter your email.">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="email2">Confirm your email.</label>
+                <input id="email2" name="email2" type="text" placeholder="Enter your email again.">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password">Create a Password.</label>
+                <input id="password"name="password" type="password" placeholder="Create a password.">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="username">What should we call you?</label>
+                <input id="username"name="username" type="username" placeholder="Enter a profile name.">
+                 <label for="username">This appers on your profile</label>
+                <div class="error"></div>
+            </div>
+            
+                        <div class="Birthdate">
+                <label for="Birthdate">What is your date of birth?</label>
+                <br>
+
+   <table class="birthdate">
+         <tr>
+            <td><label for="password">Day</label></td>
+            <td><label for="password">Month</label></td>
+            <td><label for="password">Year</label></td>
+            </tr>
+            <tr>
+            <td>	   
+            <input type="number" id="day" name="day" class="day" placeholder="DD" />
+<div class="error"></div>
+            </td>
+ 
+           <td> 
+      <select id="month" name="month" class="month">
+	    <option value="month">Month</option>
+	    <option value="January">January</option>
+	    <option value="February">February</option>
+	    <option value="March">March</option>
+	    <option value="April">April</option>
+	    <option value="May">May</option>
+      <option value="June">June</option>
+      <option value="July">July</option>	
+      <option value="August">August</option>
+	   <option value="September">September</option>
+      <option value="October">October</option>
+      <option value="November">November</option>
+	   <option value="Decembers">December</option>
+	    </select>
+<div class="error"></div>
+          </td>
+           <td>
+           <input type="number" id="year" name="year" class="year" placeholder="YYYY" />
+<div class="error"></div>
+              </td>
+              </tr>
+              </table>
+              </div>
+
+              <br><b> Choose your favroite season: </b><br>  
+<input type="radio" name="gender" id="gender" value="male"> Male    
+<input type="radio" name="gender" id="gender" value="female"> Female    
+<input type="radio" name="gender" id="gender" value="Non-binary"> Non-binary 
+<input type="radio" name="gender" id="gender" value="Other"> Other  
+<input type="radio" name="gender" id="gender" value="Prefer not to say"> Prefer not to say   
+<div id="disp" style= "color:green"> </div>
+<div id="error" style= "color:red"></div>    
+  <input type="checkbox" name="optional" value="optional"> Share my registration data with Spotify's content providers for marketing purposes. <br /> <br />
+
+   <div class="agree">
+   <a>By clicking on sign-up, you agree to Spotify's <font color="#1ebe67"<a href="">Terms and Conditions of Use.</a></font> </a> <br>
+   <a>To learn more about how Spotify collects, uses, shares and protects your personal data, please see<font color="#1ebe67"<a href="">Spotify's Privacy Policy.</a></font> </a> </div>
+                              
+<button type="submit" onclick=" checkButton()"> Sign Up </button>   
+      
+
+             
+            
+        </form>
+    </div>
+</body>
+</html>
